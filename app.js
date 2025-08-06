@@ -111,9 +111,8 @@
 // Q14
 // let animal = document.querySelector("#animal");
 // let animalArr = ["dog", "cat", "bird"];
-// for(let i = 0; i <animalArr.length; i++){
+
 //     animal.innerHTML = animalArr.join(" , ");
-// }
 
 // Q15
 
@@ -146,3 +145,115 @@
 
 
 // Q19
+
+
+
+// let subjectsList = document.querySelector("#subjectsList");
+// let subject = ["Math", "Science", "English"]
+// for(let i = 0 ;i<subject.length;i++){
+// subjectsList.innerHTML  = subject.join(" , ");
+// }
+
+// Q20
+
+// let arrNum =[5, 10, 15, 20];
+// let sum = 0
+//     for(let i = 0 ; i <arrNum.length ; i++){
+//          sum += arrNum[i];
+      
+//     }
+//       console.log(sum)
+
+
+// Q21
+
+let arr =[45, 67, 12, 89, 34];
+for(let i = 0 ; i<arr.length ; i++){
+}
+
+
+
+
+
+
+// Q22
+
+// let arrEven = [3, 8, 6, 1, 9, 2];
+// for(let i = 0;i<arrEven.length; i++){
+//     if(arrEven[i]%2 === 0){
+//         console.log(arrEven[i]);
+//     }
+// }
+
+// Q23
+
+// let arrSum =[20, 30, 40, 50];
+// let sum = 0 ;
+// for(let i = 0 ; i<arrSum.length;i++){
+//     sum += arrSum[i]
+// }
+// console.log(sum);   
+
+
+// Q24
+// let arrMultiply =[2, 4, 6, 8, 10]
+// let mulitply =[];
+// for(let i = 0 ;i<arrMultiply.length; i++){
+// mulitply.push(arrMultiply[i]*3);
+// }
+// console.log(mulitply);
+
+
+
+// Q25
+// let greaterNum =[1, 3, 5, 7, 9];
+// for(let i = 0 ;i<greaterNum.length;i++){
+//     if(greaterNum[i]>4){
+//         console.log(greaterNum[i]);
+//     }
+// } 
+
+// Q26
+// let devisableNum =[10, 15, 20, 25, 30]
+// for(let i =0 ; i<devisableNum.length; i++){
+//     if(devisableNum[i]%5 === 0){
+//         console.log(devisableNum[i]);
+//     }
+// }
+
+
+// Q27
+
+
+
+
+
+
+
+
+
+
+
+
+// Q28
+
+// let arr1 = [1, 2, 3]
+// let arr2 = [4, 5, 6]
+// let arr3 = [];
+// for(let i = 0 ;i<arr1.length; i++){
+//     arr3.push(arr1[i] + arr2[i])
+// }
+// console.log(arr3);
+
+// Q29
+
+
+
+
+
+
+
+
+// Q30
+
+
