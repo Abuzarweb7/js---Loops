@@ -109,8 +109,40 @@
 
 
 // Q14
-let animal = document.querySelector("#animal");
-let animalArr = ["dog", "cat", "bird"];
-for(let i = 0; i <animalArr.length; i++){
-    animal.innerHTML = "<span>" + animalArr[i] + "</span>"
-}
+// let animal = document.querySelector("#animal");
+// let animalArr = ["dog", "cat", "bird"];
+// for(let i = 0; i <animalArr.length; i++){
+//     animal.innerHTML = animalArr.join(" , ");
+// }
+
+// Q15
+
+// let title = document.querySelector("#title");
+// title.innerHTML = "Welcome to JavaScript!";
+
+
+// Q16
+
+
+// for(let i = 1 ; i<=50 ;i++){
+//     if(i%5 === 0){
+// console.log(i)
+//     }
+// }
+
+// Q17
+// let scores = [80, 60, 90, 70];
+// let highScores = document.querySelector("#highScores");
+// for(let i = 0 ; i< scores.length;i++){
+//     if(scores [i] >75){
+//     highScores.innerHTML += scores[i]
+//     }
+// }
+
+// Q18
+
+// let message = document.querySelector("#message");
+// message.innerHTML = "Updated successfully !";
+
+
+// Q19
