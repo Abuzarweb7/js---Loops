@@ -80,3 +80,37 @@
 
 
 // Q11
+
+
+// let result = document.querySelector("#result");
+// result.innerHTML = "Task Completed"
+
+// Q12
+
+
+// let averageTemp= document.querySelector("#averageTemp");
+// let temprature = [30, 35, 32, 40];
+// let sumTemp = 0
+// for(let i = 0 ; i<temprature.length;i++ ){
+// averageTemp.innerHTML = sumTemp += temprature[i];
+// averageTemp.innerHTML = sumTemp / temprature.length + "%"
+// }
+
+
+
+// Q13
+// let totalSum =document.querySelector("#totalSum");
+// let sum = 0
+
+
+// for(let i = 0 ; i<=100 ; i++){
+//     totalSum.innerHTML= sum += i;
+// }
+
+
+// Q14
+let animal = document.querySelector("#animal");
+let animalArr = ["dog", "cat", "bird"];
+for(let i = 0; i <animalArr.length; i++){
+    animal.innerHTML = "<span>" + animalArr[i] + "</span>"
+}
