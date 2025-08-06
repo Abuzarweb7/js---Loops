@@ -8,10 +8,10 @@
 
 // Q2
 
-// let para = document.querySelector("#para");
+// let output = document.querySelector("#output");
 // let arrColors = ["red", "green", "blue"];
 // for(let i = 0 ; i < arrColors.length; i++){
-//     para.innerHTML += "<p>" + arrColors [i] + "</p>";
+//     output.innerHTML += "<p>" + arrColors [i] + "</p>";
 // }
 
 // Q3
@@ -30,7 +30,7 @@
 
 
 // Q5
-// let div = document.querySelector("#div");
+// let div = document.querySelector("#names");
 // let nameArr = ["Ali", "Sara", "Ahmed"];
 // for(let i = 0 ; i <nameArr.length;i++){
 //     div.innerHTML += "<span>" +  " , "  + nameArr[i] + "</span>"
@@ -38,10 +38,13 @@
 
 // Q6
 
+// let status =document.querySelector("#status");
+// status.innerHTML = "Changed";
 
 
-// let para =document.querySelector("#status");
-// para.innerHTML = "Changed";
+
+// Q7
+
 // let sumArr = [5, 10, 15]
 // let sumNum = 0;
 // let sum = document.querySelector("#sum");
@@ -50,11 +53,30 @@
 // }
 
 
-// Q7
-let para = document.querySelector("#citeis");
-let cities =["Karachi", "Lahore", "Quetta"]
-let newArr = cities.split (" , ");
-console.log(newArr);
-for(let i = 0 ; i <newArrCities.lenght; i++){
-    para.innerHTML = newArrCities [i];
-}
+// Q8
+    // let divCities= document.querySelector("#cities");
+    // let cities =["Karachi", "Lahore", "Quetta"]
+   
+    // for(let i =0; i<cities.length;i++){
+    //     divCities.innerHTML = cities.join(" , ");
+    // }
+
+
+    //Q9
+//    for(let i = 1 ; i<=20 ;i++){
+//     if(i%2 === 0){
+//         console.log(i + "is Even")
+//     }
+//    }
+
+
+// Q10
+// let max = document.querySelector("#max");
+// let maxNum = 0
+// let arrNum =[45, 22, 89, 100]
+// for(let i =0; i<arrNum.length;i++){
+//    max.innerHTML = maxNum = arrNum[i]
+// }
+
+
+// Q11
