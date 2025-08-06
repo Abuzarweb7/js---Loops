@@ -169,7 +169,11 @@
 
 let arr =[45, 67, 12, 89, 34];
 for(let i = 0 ; i<arr.length ; i++){
+
+   let maxNum = Math.max(arr[i]);
+   console.log(maxNum);
 }
+
 
 
 
@@ -225,7 +229,15 @@ for(let i = 0 ; i<arr.length ; i++){
 // Q27
 
 
-
+let arrNum =[10, 20, 30, 40, 25]
+for(let i = 0; i<arrNum.length; i++){
+    if(arrNum[i] === 25){
+        console.log("25 number is exist");
+    }
+    else{
+        console.log("25 is not exist");
+    }
+}
 
 
 
@@ -257,3 +269,45 @@ for(let i = 0 ; i<arr.length ; i++){
 // Q30
 
 
+// let arrReverse = [1, 2, 3, 4, 5];
+// for(let i = 0; i<arrReverse.length; i--){
+//     console.log(arrReverse[i]);
+// }
+
+
+// Q31
+
+
+// for(let i = 0 ; i<50 ; i++){
+//     if(i%2 === 1){
+//         console.log(i);
+//     }
+// }
+  
+
+// Q32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Q34
+
+
+// let nums = [1,2,4,6,9,11,17,14,23,28,30]
+// for(let i = 0;i<nums.length; i++){
+//     if(nums[i]%2 === 1){
+//         console.log(`${nums[i]} is Odd`);
+//     }
+   
+// }
