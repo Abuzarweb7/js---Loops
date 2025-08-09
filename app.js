@@ -351,6 +351,26 @@
 // }
 
 
+
+
 // Q36
 
 
+
+
+
+
+
+
+
+
+
+
+// Q37
+
+// let evenNums = [2, 4, 6, 8];
+// for(let i = 0; i<evenNums.length ;i++){
+//     if(evenNums[i]%2 === 0 ){
+//         console.log(` Even Number ${evenNums[i]}`);
+//     }
+// }
