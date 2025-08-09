@@ -167,14 +167,19 @@
 
 // Q21
 
-let arr =[45, 67, 12, 89, 34];
-for(let i = 0 ; i<arr.length ; i++){
+// let arr =[45, 67, 12, 89, 34];
 
-   let maxNum = Math.max(arr[i]);
-   console.log(maxNum);
-}
+// let max = arr[0]
+// for(let i = 0;i<arr.length;i++){
 
+// if(arr[i]>max){
+//     max = arr[i]
+ 
+// }
 
+// }
+
+//    console.log(max);
 
 
 
@@ -229,15 +234,14 @@ for(let i = 0 ; i<arr.length ; i++){
 // Q27
 
 
-let arrNum =[10, 20, 30, 40, 25]
-for(let i = 0; i<arrNum.length; i++){
-    if(arrNum[i] === 25){
-        console.log("25 number is exist");
-    }
-    else{
-        console.log("25 is not exist");
-    }
-}
+    // let arrNum =[10, 20, 30, 40, 25]
+    // for(let i = 0; i<arrNum.length; i++){
+    //     if(arrNum[i] === 25){
+    //         console.log(`yes this is ${arrNum[i]} in array `);
+    //     }
+        
+    // }
+ 
 
 
 
