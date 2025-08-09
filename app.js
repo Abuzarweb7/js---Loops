@@ -274,11 +274,9 @@
 
 
 // let arrReverse = [1, 2, 3, 4, 5];
-// for(let i = 0; i<arrReverse.length; i--){
+// for(let i = arrReverse.length -1 ;i>= 0 ; i--){
 //     console.log(arrReverse[i]);
 // }
-
-
 // Q31
 
 
@@ -291,6 +289,22 @@
 
 // Q32
 
+// let arrNumbar = [11, 4, 99, 2, 47];
+// let smallerNum = arrNumbar[0];
+// let largestNum =arrNumbar[0];
+// let largerAndSmaller = 0;
+// for(let i = 0; i<arrNumbar.length; i++){
+
+//     if(arrNumbar[i] <smallerNum){
+//     smallerNum = arrNumbar[i];
+// }
+// else if(arrNumbar[i] < largestNum){
+// largestNum = arrNumbar[i];
+// }
+
+// }
+// largerAndSmaller =largestNum-smallerNum;
+// console.log(largerAndSmaller);
 
 
 
@@ -300,6 +314,17 @@
 
 
 
+
+// Q33
+
+
+
+// let arrNums = [0, -1, -5, 6, 8, -3];
+// for(let i = 0; i<arrNums.length; i++){
+//     if(arrNums[i] < 0 ){
+//         console.log(`negative num ${arrNums[i]}`);
+//     }
+// }
 
 
 
@@ -315,3 +340,17 @@
 //     }
    
 // }
+
+
+// Q35
+// let arrNums = [0, 1, 0, 3, 0, 5]
+// for(let i = 0; i<arrNums.length; i++){
+//     if(arrNums[i] > 0 ){
+//         console.log(`Non Zero  nums  ${arrNums[i]}`);
+//     }
+// }
+
+
+// Q36
+
+
