@@ -22,10 +22,10 @@
 
 // Q4
 
-// let i = 0;
-// while(i <=5){
+// let i = 5;
+// while(i>=1){
 //     console.log(i);
-//     i++;
+//     i--;
 // }
 
 
@@ -39,7 +39,7 @@
 // Q6
 
 // let status =document.querySelector("#status");
-// status.innerHTML = "Changed";
+// status.innerHTML = "Loading...";
 
 
 
@@ -279,12 +279,14 @@
 // }
 // Q31
 
-
+// let primes= []
 // for(let i = 0 ; i<50 ; i++){
-//     if(i%2 === 1){
-//         console.log(i);
+//     if(primes(i)){
+//        primes.push(i)
 //     }
+
 // }
+// console.log(primes);
   
 
 // Q32
@@ -374,3 +376,34 @@
 //         console.log(` Even Number ${evenNums[i]}`);
 //     }
 // }
+
+
+// Q38
+// let arr = [5, 10, 15, 20, 25];
+// let sum = 0
+// let count = 0;
+// for(let i = 0; i<arr.length;i++){
+
+//  sum +=arr[i];
+//  }
+//   let avarge = sum/arr.length
+//  for(let i = 0; i<arr.length;i++){
+// if(arr[i] >= avarge){
+//     count++;
+// }
+//  }
+
+// console.log(avarge);
+
+
+
+
+
+// Q39
+
+let arrNum = [2, 2, 2, 2, 2];
+for(let i = 0; i<arrNum.length; i++){
+    if(arrNum[i] === 2){
+        console.log(` Number are ${arrNum[i]} is eqaual`);
+    }
+}
