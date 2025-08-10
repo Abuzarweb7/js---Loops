@@ -39,7 +39,7 @@
 // Q6
 
 // let status =document.querySelector("#status");
-// status.innerHTML = "Loading...";
+// status.innerHTML = ""Loading...";
 
 
 
@@ -401,9 +401,12 @@
 
 // Q39
 
-let arrNum = [2, 2, 2, 2, 2];
-for(let i = 0; i<arrNum.length; i++){
-    if(arrNum[i] === 2){
-        console.log(` Number are ${arrNum[i]} is eqaual`);
-    }
+const nums = [2, 2, 2, 2, 2];
+let allEqualNums = true;
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] !== nums[0]) {
+    allEqualNums = false;
+    break;
+  }
 }
+console.log(allEqualNums);
