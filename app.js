@@ -276,19 +276,27 @@
 // let arrReverse = [1, 2, 3, 4, 5];
 // for(let i = arrReverse.length -1 ;i>= 0 ; i--){
 //     console.log(arrReverse[i]);
-// }
+// } 
+
+
+
+
+
 // Q31
 
-// let primes= []
-// for(let i = 0 ; i<50 ; i++){
-//     if(primes(i)){
-//        primes.push(i)
+
+// for (let i = 2; i <= 50; i++) {
+//   let isPrime = true;
+//   for (let j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       isPrime = false;
+//       break;
 //     }
-
+//   }
+//   if (isPrime) {
+//     console.log(i);
+//   }  
 // }
-// console.log(primes);
-  
-
 // Q32
 
 // let arrNumbar = [11, 4, 99, 2, 47];
@@ -401,12 +409,12 @@
 
 // Q39
 
-const nums = [2, 2, 2, 2, 2];
-let allEqualNums = true;
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] !== nums[0]) {
-    allEqualNums = false;
-    break;
-  }
-}
-console.log(allEqualNums);
+// const nums = [2, 2, 2, 2, 2];
+// let allEqualNums = true;
+// for (let i = 0; i < nums.length; i++) {
+//   if (nums[i] !== nums[0]) {
+//     allEqualNums = false;
+//     break;
+//   }
+// }
+// console.log(allEqualNums);
