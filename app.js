@@ -264,7 +264,19 @@
 // Q29
 
 
+// let numbers = [10, 99, 23, 87, 56];
+// let maxNum = 0;
+// let secondLargerNum = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > maxNum) {
+//     secondLargerNum = maxNum;
+//     maxNum = numbers[i];
+//   } else if (numbers[i] > secondLargerNum && numbers[i] < maxNum) {
+//     secondLargerNum = numbers[i];
+//   }
 
+// }
+// console.log(secondLargerNum);
 
 
 
@@ -286,14 +298,14 @@
 
 
 // for (let i = 2; i <= 50; i++) {
-//   let isPrime = true;
+//   let primeNum = true;
 //   for (let j = 2; j < i; j++) {
 //     if (i % j === 0) {
 //       isPrime = false;
 //       break;
 //     }
 //   }
-//   if (isPrime) {
+//   if (primeNum) {
 //     console.log(i);
 //   }  
 // }
@@ -366,10 +378,21 @@
 // Q36
 
 
+// let arrNums = [1, 2, 3, 4, 5, 6];
 
 
+// for(let i =0; i<arrNums.length;i++){
+//     if(i === 0){
+//         let temp = arrNums[i]
+//         arrNums[i] = arrNums[arrNums.length -1] 
+//         arrNums[arrNums.length -1] = temp
+//        console.log(arrNums);
+
+//     }
+// }
 
 
+// for(let i =0 )
 
 
 
